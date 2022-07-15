@@ -3,7 +3,8 @@
 
 import { NavBar } from "./layout/NavBar";
 import LoginPage from "./pages/LoginPage";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignUpPage from "./pages/SignUpPage"
+import {  Routes, Route } from "react-router-dom";
 function App() {
 
   return (
@@ -13,7 +14,7 @@ function App() {
     <Routes>
   
     <Route path="/" element={<LoginPage />} />
-    
+    <Route path="/signup" element={<SignUpPage/> } />
   </Routes>
   </div>
   );

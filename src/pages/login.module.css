@@ -1,44 +1,43 @@
+.form{
 
-  .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    gap: 17px;
-  }
-  .mainContainer{
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:300px 
+}
+.mainContainer{
+
+ background-image: url("https://cdn.discordapp.com/attachments/747993860923457647/997151280067784764/3918758.jpg");
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
  
-   background-image: url("https://cdn.discordapp.com/attachments/747993860923457647/997151280067784764/3918758.jpg");
-    width: 100vw;
-    height: 100vh;
+}
+
+
+.loginButton{
+ 
+   border-radius: 5px;
+   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  width: 190px;
+  margin-right: 10px;
+  margin-left: 11px;
+  height: 40px;
   
-  }
-  .emailInput{
-   margin-top: 200px;
-     width: 290px;
-     height: 50px;
-    
-  }
-  .loginButton{
-   
-     border-radius: 5px;
-     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
-    color: white;
-    width: 290px;
-    height: 50px;
-    
-  }
-  .passwordInput{
-    padding-bottom: 5px;
-    
-    width: 290px;
-    height: 55px;
-  }
- 
-  input {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    border: 1px solid #D5D4D8;
-    text-indent: 5px;
-  }
+}
+.form_input {
+  width: 400px;
+
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+

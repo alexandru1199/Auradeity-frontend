@@ -1,6 +1,7 @@
 import styles from './login.module.css'; 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+
 export default function LoginPage(){
     const navigate = useNavigate();
     const onClickCreateAccountButton = () => {
@@ -20,6 +21,7 @@ export default function LoginPage(){
               
             />
         
+       
     
    
              <input
@@ -31,8 +33,8 @@ export default function LoginPage(){
             />
         
        <span>
-       <button className={styles.loginButton}>Log In</button>
-       <button className={styles.loginButton} onClick={onClickCreateAccountButton}>   Create Account </button> 
+     
+       <button className={styles.loginButton} onClick={onClickCreateAccountButton}>   Sign Up </button> 
        </span>
         
         </form>
