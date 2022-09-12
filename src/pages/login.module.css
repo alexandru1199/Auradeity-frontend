@@ -1,34 +1,28 @@
-.form{
-
+.form {
   padding: 50px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom:300px 
+  padding-bottom: 300px;
 }
-.mainContainer{
-
- background-image: url("https://cdn.discordapp.com/attachments/747993860923457647/997151280067784764/3918758.jpg");
- height: 100vh;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- 
+.mainContainer {
+  background-image: url("https://cdn.discordapp.com/attachments/747993860923457647/997151280067784764/3918758.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.loginButton{
- 
-   border-radius: 5px;
-   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+.loginButton {
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
   color: white;
   width: 190px;
   margin-right: 10px;
   margin-left: 11px;
   height: 40px;
-  
 }
 .form_input {
   width: 400px;
@@ -38,6 +32,9 @@
   border-radius: 5px;
   border: 1px solid gray;
   padding: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
+.accountexist {
+  color: red;
+}
